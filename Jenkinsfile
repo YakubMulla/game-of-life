@@ -1,7 +1,9 @@
 pipeline{
-			agent{
+			agent {
+				label {	
 					label 'built-in'
 					customWorkspace '/data/project/game-of-life'
+			}
 			}
 			stages{
 					
