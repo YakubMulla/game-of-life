@@ -1,5 +1,5 @@
 pipeline{
-			agent{
+			agent {
 					label 'built-in'
 					customWorkspace '/data/project/game-of-life'
 			}
@@ -12,7 +12,7 @@ pipeline{
 							         sh "rm -rf /root/.m2/repository"
 							
 							}
-					
+					}
 					stage ('game-of-life'){
 							
 							steps {
