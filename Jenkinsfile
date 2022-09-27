@@ -1,5 +1,5 @@
 pipeline{
-			agent {
+			agent{
 					label 'built-in'
 					customWorkspace '/data/project/game-of-life'
 			}
@@ -35,5 +35,3 @@ pipeline{
 			
 			}
 
-
-}
