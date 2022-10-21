@@ -36,7 +36,7 @@ pipeline {
  
             steps {
                 sh "rm -rf *"
-                sh "git clone https://github.com/tejasshete244/game-of-life.git"
+                sh "git clone https://github.com/YakubMulla/game-of-life.git"
                 sh "rm -rf /root/.m2/repository"
             }
     }
