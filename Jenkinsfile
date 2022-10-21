@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh "rm -rf *"
                 sh "git clone https://github.com/YakubMulla/game-of-life.git"
-                sh "rm -rf /root/.m2/repository"
+                sh "sudo rm -rf /root/.m2/repository"
             }
         }
         stage ('mvn-build-1'){
@@ -37,7 +37,7 @@ pipeline {
             steps {
                 sh "rm -rf *"
                 sh "git clone https://github.com/YakubMulla/game-of-life.git"
-                sh "rm -rf /root/.m2/repository"
+                sh "sudo rm -rf /root/.m2/repository"
             }
     }
         
